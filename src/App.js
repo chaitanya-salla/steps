@@ -19,7 +19,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <>
       <button className="close" onClick={show}>
         &times;
       </button>
@@ -50,7 +50,7 @@ const App = () => {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
